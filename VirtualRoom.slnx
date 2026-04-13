@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="Shared/Shared.csproj" />
+    <Project Path="VirtualRoom.API/VirtualRoom.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/IdentityModule/">
+    <Project Path="Modules.Identity.Application/Modules.Identity.Application.csproj" />
+    <Project Path="Modules.Identity.Infrastructure/Modules.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/PeopleModule/">
+    <Project Path="Modules.People.Application/Modules.People.Application.csproj" Id="fd0d257f-833f-46e5-a972-39d3dd4cab0a" />
+    <Project Path="Modules.People.Domain/Modules.People.Domain.csproj" Id="ef7a1062-321e-4b67-9e79-a06d10d1a996" />
+    <Project Path="Modules.People.Infrastructure/Modules.People.Infrastructure.csproj" Id="d8a31f8b-130e-4cb5-87c5-a439bcd68a53" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
