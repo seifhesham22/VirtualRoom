@@ -19,7 +19,7 @@ namespace Modules.People.Application.Features.AssignMaintainerToDepartment
         {
             var deptManager = await _people
                 .departmentManagers
-                .FirstOrDefaultAsync(x => x.UserId == _currentUser.UserId, cancellationToken)
+                .FirstOrDefaultAsync(x => x.Id == _currentUser.ProfileId, cancellationToken)
                 ?? throw new InvalidOperationException(
                     "Department manager profile not found");
 
